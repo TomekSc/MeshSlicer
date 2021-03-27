@@ -4,7 +4,7 @@ bl_info = {
     "name": "Mesh Slicer",
     "author": "Tomasz Schelenz",
     "version": (1, 0),
-    "blender": (2, 80, 0),
+    "blender": (2, 92, 0),
     "location": "View3D > Tools panel 'T' > Mesh Slicer",
     "description": "Slice a mesh with multiple planes at once. Planes can intersect with each other. Will not work correctly with other types of meshes as slicers",
     "warning": "",
