@@ -8,7 +8,7 @@ bl_info = {
     "location": "View3D > Tools panel 'T' > Mesh Slicer",
     "description": "Slice a mesh with multiple planes at once. Planes can intersect with each other. Will not work correctly with other types of meshes as slicers",
     "warning": "",
-    "wiki_url": "",
+    "wiki_url": "https://github.com/TomekSc/MeshSlicer",
     "category": "",
     }
 class SlicerContainer:
