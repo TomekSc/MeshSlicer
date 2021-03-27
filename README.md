@@ -36,6 +36,7 @@ _What to do with slicers_ - decides what happen to slicing planes after the oper
 
 **Notes:**
 - Created and tested with Blender 2.92
+- Shile the material and other data will be transferred from the the source object to results of slicing, the uvs will not. This is a limitation of build int Blender Boolean modifier, after applying it the uvs get reset. 
 - This tool uses recursion-like algorithm, execution time increases exponentially with the count of slicing objects. In other words it gets quite slow with plenty of slicers. 
 - This tool executes build in Blender Boolean modifier, for some complex meshes the Boolean result might be broken, and so will be the result of this tool.
 - This tool is designed to sliced with planes, you can use different shape as source which will probably work, but those object will be treated as planes located at the object origin, and oriented towards its up vector. Slicing with complex shapes won't work.
