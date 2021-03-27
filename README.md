@@ -35,6 +35,7 @@ _What to do with slicers_ - decides what happen to slicing planes after the oper
 4) Mesh Slicer panel will appear avaialble in 3D view - Tools panel.
 
 **Notes:**
+- Requires Blender 2.80+
 - This tool uses recursion-like algorithm, execution time increases exponentially with the count of slicing objects. In other words it gets quite slow with plenty of slicers. 
 - This tool executes build in Blender Boolean modifier, for some complex meshes the Boolean result might be broken, and so will be the result of this tool.
 - This tool is designed to sliced with planes, you can use different shape as source which will probably work, but those object will be treated as planes located at the object origin, and oriented towards its up vector. Slicing with complex shapes won't work.
