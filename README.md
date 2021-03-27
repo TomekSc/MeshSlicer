@@ -1,5 +1,5 @@
 # MeshSlicer
-Blender Add-On for slicing meshes with planes. 
+Blender Add-On for slicing meshes with multiple overlapping planes at once. 
 
 ![cubeSlice](https://user-images.githubusercontent.com/52789554/112713791-7415de80-8f09-11eb-885c-58abb62bf2bc.gif)
 
@@ -8,10 +8,7 @@ Blender Add-On for slicing meshes with planes.
 This is a simple Blender addon to slice a silmple mesh
 with multiple planes at once. Unlike other existing add-ons, this tool performs correct slicing while the plances are intersecting with each other. This has similar slicing functionality to 3D Max's Pro Cutter. 
 
-**Create Slicers:**
-Allows to create 1,2 or 3 perpendicular plane templates at world (0,0,0) position, that can be quickly used to slice an object. 
 
-_Size of slicers_ - size of Blender units of generated slicers. 
 
 **Perform Slicing**
 Select at least two meshes and press the Slice button. 
@@ -27,6 +24,11 @@ _Keep original_ - retains the original object that was sliced in the scene. If S
 _Reset origins_ - if selected, result meshes will get the origin set to their center. Otherwise they will have the same origin as source mesh to slice. 
 
 _What to do with slicers_ - decides what happen to slicing planes after the operation is completed. Keep, Hide and Delete options are available. 
+
+**Create Slicers:**
+Allows to create 1,2 or 3 perpendicular plane templates at world (0,0,0) position, they can be quickly used to slice an object. This step is not required to perform the slicing, you are free to generate the planes any other way. 
+
+_Size of slicers_ - size of Blender units of generated slicers. 
 
 **How to use:**
 1) Clone or Download the MeshSlicer.py file.
