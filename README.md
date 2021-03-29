@@ -39,6 +39,7 @@ _Size of slicers_ - size of Blender units of generated slicers.
 **Notes:**
 - Created and tested with Blender 2.92
 - **This version will only work for objects linked to default scene collection (named "Collection")**
+- You need to be in object mode for this tool to work. 
 - While the material and other data will be transferred from the the source object to results of slicing, the uvs will not. This is a limitation of build int Blender Boolean modifier, after applying it the uvs get reset. 
 - This tool uses recursion-like algorithm, execution time increases exponentially with the count of slicing objects. In other words it gets quite slow with plenty of slicers. 
 - This tool executes build in Blender Boolean modifier, for some complex meshes the Boolean result might be broken, and so will be the result of this tool.
